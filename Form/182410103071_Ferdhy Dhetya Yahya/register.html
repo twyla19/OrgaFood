@@ -8,7 +8,7 @@
   <body>
     <h1>Register</h1>
     <div class="box">
-      <form class="sign_in" action="register.html" method="post">
+      <form class="sign_up" method="post">
         <input type="text" name="firstname" placeholder="Nama Depan" required>
         <input type="text" name="lastname" placeholder="Nama Belakang" required><br>
         <input type="text" name="username" placeholder="Username" required><br>
@@ -19,7 +19,12 @@
         <input type="radio" name="jeniskelamin" value="perempuan" required> Perempuan <br>
         <input type="checkbox" name="termscondition" required> Saya setuju dengan <a target="_blank" href="https://i.kym-cdn.com/entries/icons/original/000/001/030/DButt.jpg">syarat dan ketentuannya</a> <br>
         <button class="button buttonsub" type="submit" name="button"> Register</button>
-      </form>
+      </form><br><br><br><br>
+      <form class="sign_in" method="post">
+          <input type="text" name="username" placeholder="Username" required><br>
+          <input type="password" name="password" placeholder="Password" required><br>
+          <button class="button buttonsub" type="submit" name="button"> Login</button>
+        </form>
     </div>
   </body>
 </html>
