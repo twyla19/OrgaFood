@@ -1,0 +1,63 @@
+body {
+  text-align: center;
+}
+
+h1{
+  font-family: 'Poppins ExtraBold';
+}
+
+p{
+  font-family: 'Poppins';
+  font-weight: 400;
+}
+
+form{
+  display: inline-block;
+}
+
+input[type=password], input[type=text], input[type=email]{
+  width: 100%;
+  padding: 12px 20px;
+  background-color: rgba(206, 212, 218, 0.5);
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 10px #ced4da;
+  border-radius: 4px;
+}
+
+label{
+  font-family: 'Poppins';
+}
+
+.button{
+  background-color: #82ae46;
+  border-radius: 15px;
+  padding: 15px 32px;
+  margin: 4px 2px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Poppins';
+  display: inline-block;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.buttonsub{
+  background-color: white;
+  color: black;
+  border: 1px solid #82ae46;}
+  .buttonsub:hover{
+    background-color: #82ae46;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+  .box{
+    background-color: #e9ecf0;
+    margin: auto;
+    width: 500px;
+    padding: 10px;
+    border: 1px solid #82ae46;
+    text-align: center;
+  }
