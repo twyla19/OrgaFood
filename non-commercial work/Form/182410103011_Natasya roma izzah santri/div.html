@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+    <title>form Login</title>
+    <style type="text/css">
+    	body{
+  background-image: repeating-linear-gradient(to right, #ffffff , #61f2f5);
+  background-size: cover;
+  text-align: center;
+  color: black;
+  font-family: helvetica;
+}
+
+form{
+  display: inline-block;
+}
+
+input[type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px white;
+  border-radius: 4px;
+}
+
+input[type=email]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px white;
+  border-radius: 4px;
+}
+
+input[type=password]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px white;
+  border-radius: 4px;
+}
+
+h4{
+  font-weight: bold;
+}
+
+.button {
+  background-color: #3bfeb8;
+  border-radius: 4px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.buttonsub {
+  background-color: white;
+  color: black;
+  border: 1px solid #3bfeb8;
+}
+
+.buttonsub:hover{
+  background-color: #3bfeb8;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.box{
+  margin: auto;
+  width: 500px;
+  border: 1px solid red;
+  text-align: center;
+}
+
+
+.centerinput{
+  display: flex;
+  justify-content: center;
+  width: 300px;
+}
+    </style>>
+</head>
+<body style="background-image: url('gambar.jpg');" >
+<div class="container-1">
+<div class="Kotak_Login" style="border: 5px solid black;position: absolute;">
+	<p class="Tulisan_Login"><b>LOGIN</b></p>
+    <form class="sign_in" action="register.html" method="post">
+        <input type="text" name="firstname" placeholder="Nama Depan" required>
+        <input type="text" name="lastname" placeholder="Nama Belakang" required><br>
+        <input type="text" name="username" placeholder="Username" required><br>
+        <input type="email" name="email" placeholder="Email" required><br>
+        <input type="password" name="password" placeholder="Password" required><br>
+        <h4>Jenis Kelamin</h4>
+        <input type="radio" name="jeniskelamin" value="laki" required> Laki-laki
+        <input type="radio" name="jeniskelamin" value="perempuan" required> Perempuan <br>
+        <input type="checkbox" name="termscondition" required> Saya setuju dengan <a target="_blank" href="https://i.kym-cdn.com/entries/icons/original/000/001/030/DButt.jpg">syarat dan ketentuannya</a> <br>
+        <button class="button buttonsub" type="submit" name="button"> Register</button>
+      </form>
+       </div>
+
+<!--  -->
+<div class="container-2" id="kedua">
+<div class="Kotak_Login" style="border: 5px solid black;margin-left: 700px;">
+	<p class="Tulisan_Pendaftaran"><b>DAFTAR</b></p>
+    <form>
+    	<font size="4px">Nama_Lengkap:<br></font>
+    	<input type="text" name="Nama_Lengkap" class="Nama_Lengkap"></br>
+    <p>
+    	<font size="4px">Alamat:<br></font>
+    	<input type="text" name="Alamat" class="Alamat"></b>
+    </p>
+    <p>
+    	<font size="4px">Tanggal_lahir:<br></font>
+    	<input type="date" name="Tanggal_lahir" class="Tanggal_lahir"></br>
+    </p>
+    Jenis Kelamin:<br>
+    <input type="radio" name="Jenis_Kelamin" value="Laki-laki">Laki-laki<br>
+    <input type="radio" name="Jenis_Kelamin" value="Perempuan">Perempuan<br>
+
+    Agama:<br>
+    <select name="Agama">
+    	<option value="Islam">Islam</option>
+    	<option value="Kristen">Kristen</option>
+    	<option value="Hindu">Hindu</option>
+    	<option value="Budha">Budha</option>
+    </select>	
+
+    <div class="MASUK">
+    <font size="5px"><input type="MASUK" name="MASUK" value="MASUK"></font>
+    </div>
+    </form>
+</body>
+</html>
