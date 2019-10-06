@@ -27,6 +27,7 @@ input[type=password], input[type=text], input[type=email]{
 
 label{
   font-family: 'Poppins';
+  text-align: center;
 }
 
 ul {
@@ -38,7 +39,11 @@ ul {
 }
 
 li {
+  display: block;
+  font-family: 'Poppins';
+  font-weight: 400;
   float: left;
+  color: white;
 }
 
 li a {
@@ -54,7 +59,7 @@ li a:hover:not(.active) {
 }
 
 .active {
-  background-color: #4CAF50;
+  background-color: #82ae46;
 }
 
 .button{
