@@ -1,5 +1,9 @@
 body {
   text-align: center;
+  background-image: url(https://alfathfarm.files.wordpress.com/2014/09/163677091.jpg);
+  background-size: 1270px 650px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 h1{
