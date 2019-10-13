@@ -86,7 +86,6 @@ li a:hover:not(.active){
   font-family: 'Poppins';
   display: inline-block;
   cursor: pointer;
-  transition-duration: 0.4s;
 }
 
 .buttonsub{
