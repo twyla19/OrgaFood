@@ -8,7 +8,6 @@ h1{
 
 p{
   font-family: 'Poppins';
-  font-weight: 400;
 }
 
 form{
@@ -25,17 +24,16 @@ input[type=password], input[type=text], input[type=email]{
   border-radius: 4px;
 }
 
-/* label{
-  font-family: 'Poppins';
-  text-align: center;
-} */
-
 .logo{
-  font-weight: 400;
+  font-weight: 800;
   float: left;
   color: white;
   padding-left: 5px;
   padding-right: 5px;
+}
+
+.logo:hover{
+  color: #82ae46;
 }
 
 ul{
@@ -68,11 +66,6 @@ li a:hover:not(.active){
 
 .active{
   background-color: #82ae46;
-}
-
-.logohome{
-  font-family: 'Poppins';
-  font-weight: 800;
 }
 
 .button{
