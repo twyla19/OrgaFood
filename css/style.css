@@ -1,10 +1,12 @@
 body {
   text-align: center;
   background-image: url(https://alfathfarm.files.wordpress.com/2014/09/163677091.jpg);
-  background-size: 1270px 650px;
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+
 
 h1{
   font-family: 'Poppins ExtraBold';
@@ -112,8 +114,8 @@ li a:hover:not(.active){
   text-align: left;
   border-left: 15px;
   border-top: 45px;
-  width: 1250px;
-  height: 320px;
+  width: 1350px;
+  height: 400px;
   position: absolute;
 }
 
@@ -132,9 +134,9 @@ li a:hover:not(.active){
 .ORGAFOOD {
   text-align: center;
   color: white;
-  font-family: Chappy;
+  font-family: "Poppins";
   font-size: 90px;
-
+  font-weight: 800;
 }
 
 .sambutan {
