@@ -8,6 +8,8 @@ body {
 
 h1{
   font-family: 'Poppins ExtraBold';
+  line-height: 0.5;
+}
 }
 
 p{
@@ -104,3 +106,44 @@ li a:hover:not(.active){
     border: 1px solid #82ae46;
     text-align: center;
   }
+
+.div1 {
+  background-color: black;
+  opacity: 0.6;
+  text-align: left;
+  border-left: 15px;
+  border-top: 45px;
+  width: 1250px;
+  height: 320px;
+  position: absolute;
+}
+
+.div2 {
+  position: absolute;
+}
+
+.welcome {
+  text-align: center;
+  color: white;
+  font-family: French Script MT;
+  font-size: 70px;
+  opacity: 1;
+}
+
+.ORGAFOOD {
+  text-align: center;
+  color: white;
+  font-family: Chappy;
+  font-size: 90px;
+
+}
+
+.sambutan {
+  text-align: center;
+  color: white;
+  font-family: Gabriola;
+  font-size: 30px;
+  line-height: 20px;
+  padding-right: 105px;
+  padding-left: 100px;
+}
