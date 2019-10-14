@@ -59,7 +59,7 @@ input[type=password], input[type=text], input[type=email]{
   color: white;
 }
 
-li a{
+.nbbutton a{
   display: block;
   color: white;
   text-align: center;
@@ -67,7 +67,7 @@ li a{
   text-decoration: none;
 }
 
-li a:hover:not(.active){
+.nbbutton a:hover:not(.active){
   background-color: #111;
 }
 
