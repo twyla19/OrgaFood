@@ -113,7 +113,7 @@ input[type=password], input[type=text], input[type=email]{
   border-left: 15px;
   border-right: 15px;
   border-top: 45px;
-  width: 100%;
+  width: 1350px;
   height: 400px;
   position: absolute;
 }
