@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background-image: url(https://alfathfarm.files.wordpress.com/2014/09/163677091.jpg);
+  background-image: url(C:/Users/Asus/Documents/GitHub/fuzzy-direx/img/mainbg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -43,7 +43,7 @@ input[type=password], input[type=text], input[type=email]{
   color: #82ae46;
 }
 
-ul{
+.navbar{
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -51,7 +51,7 @@ ul{
   background-color: #333;
 }
 
-li{
+.nbbutton{
   display: block;
   font-family: 'Poppins';
   font-weight: 400;
@@ -191,7 +191,7 @@ li a:hover:not(.active){
 }
 
 .gambarbuah {
-	background-image: url(http://images6.fanpop.com/image/photos/40200000/fruit-fruit-40230355-2560-1600.jpg);
+	background-image: url(C:/Users/Asus/Documents/GitHub/fuzzy-direx/img/gambarbuah.png);
 	width: 1000px;
 	height:  400px;
 	background-size: 1000px 500px;
@@ -255,7 +255,7 @@ li a:hover:not(.active){
 }
 
 .gambarJN {
-	background-image: url(https://4.bp.blogspot.com/-Fg4M8bdmG6E/W6cnjZd3vxI/AAAAAAAAACg/omOC1QImV_gUTp6RpyMiJLC5fG9O_IdagCLcBGAs/s640/kandungan%2Bnutrisi%2Bdan%2Bgizi%2Bjeruk%2Bnipis%2Bfull%2Bhd.jpg);
+	background-image: url(C:/Users/Asus/Documents/GitHub/fuzzy-direx/img/JN.jpg);
 	width: 275px;
 	height: 170px;
 	background-size: 200px 130px;
@@ -278,7 +278,7 @@ li a:hover:not(.active){
 }
 
 .gambarST {
-	background-image: url(https://wallpaperplay.com/walls/full/a/5/0/228762.jpg);
+	background-image: url(C:/Users/Asus/Documents/GitHub/fuzzy-direx/img/ST.jpg);
 	width: 275px;
 	height: 170px;
 	background-size: 200px 130px;
@@ -301,7 +301,7 @@ li a:hover:not(.active){
 }
 
 .gambarKW {
-	background-image: url(https://images2.alphacoders.com/872/872354.jpg);
+	background-image: url(C:/Users/Asus/Documents/GitHub/fuzzy-direx/img/KW.jpg);
 	width: 275px;
 	height: 170px;
 	background-size: 200px 130px;
@@ -324,7 +324,7 @@ li a:hover:not(.active){
 }
 
 .gambarBL {
-	background-image: url(https://www.tokkoro.com/picsup/2722682-blueberry-4k-wallpaper-for-wide-screen.jpg);
+	background-image: url(C:/Users/Asus/Documents/GitHub/fuzzy-direx/img/KW.jpg);
 	width: 275px;
 	height: 170px;
 	background-size: 200px 130px;
