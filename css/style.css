@@ -6,7 +6,7 @@ body {
   background-attachment: fixed;
 }
 
-
+/* home start */
 
 h1{
   font-family: 'Poppins ExtraBold';
@@ -147,3 +147,191 @@ li a:hover:not(.active){
   padding-right: 105px;
   padding-left: 100px;
 }
+
+/* end of home */
+
+/* produk start */
+
+.produkbg {
+	background-color: #EEEEEE;
+}
+
+.kategori {
+	background-color: white;
+	font-family: "Poppins";
+	width: 210px;
+	height: 120px;
+	font-size: 15px;
+	position: absolute;
+	top: 20px;
+  	left: 10px;
+}
+
+.kategoriproduk {
+	font-size: 20px;
+	padding-left: 20px;
+	padding-top: 10px;
+}
+
+.filter {
+	background-color: white;
+	font-family: "Calibri";
+	width: 200px;
+	height: 150px;
+	font-size: 15px;
+	position: absolute;
+	top: 160px;
+  	left: 10px;
+  	padding-left: 10px;
+}
+
+.filterr {
+	font-size: 20px;
+	padding-top: 5px;
+}
+
+.gambarbuah {
+	background-image: url(http://images6.fanpop.com/image/photos/40200000/fruit-fruit-40230355-2560-1600.jpg);
+	width: 1000px;
+	height:  400px;
+	background-size: 1000px 500px;
+  	background-repeat: no-repeat;
+ 	position: absolute;
+ 	top: 20px;
+ 	left: 250px;
+}
+
+
+.backgroundbuah {
+	background-color: black;
+	opacity: 0.6;
+	position: relative;
+	height: 100px;
+	width: 800px;
+  	left: 440px;
+  	top: 120px;
+}
+
+.buah {
+	position: relative;
+	color: white;
+	top: 35px;
+  	left: 450px;
+  	line-height: 5px;
+}
+
+.buahognk {
+	font-family: Swis721 Hv BT;
+}
+
+.Dipetik {
+	font-family: Microsoft Himalaya;
+	font-size: 30px;
+}
+
+.jeruknipis {
+	background-color: white;
+	width: 250px;
+	height: 300px;
+	font-size: 10px;
+	position: relative;
+	top: 280px;
+  	left: 240px;
+  	padding-top: 0px;
+  	text-align: center;
+}
+
+.coret {
+	opacity: 0.6;
+	text-decoration: line-through;
+}
+
+.harga {
+	color: #00FF00;
+}
+
+.Kg {
+	opacity: 0.6;
+}
+
+.gambarJN {
+	background-image: url(https://4.bp.blogspot.com/-Fg4M8bdmG6E/W6cnjZd3vxI/AAAAAAAAACg/omOC1QImV_gUTp6RpyMiJLC5fG9O_IdagCLcBGAs/s640/kandungan%2Bnutrisi%2Bdan%2Bgizi%2Bjeruk%2Bnipis%2Bfull%2Bhd.jpg);
+	width: 275px;
+	height: 170px;
+	background-size: 200px 130px;
+	background-repeat: no-repeat;
+	position: relative;
+	top: 30px;
+	left: 25px;
+}
+
+.strawberry {
+	background-color: white;
+	width: 250px;
+	height: 300px;
+	font-size: 10px;
+	position: relative;
+  	left: 495px;
+  	bottom: 20px;
+  	padding-top: 0px;
+  	text-align: center;
+}
+
+.gambarST {
+	background-image: url(https://wallpaperplay.com/walls/full/a/5/0/228762.jpg);
+	width: 275px;
+	height: 170px;
+	background-size: 200px 130px;
+	background-repeat: no-repeat;
+	position: relative;
+	top: 30px;
+	left: 25px;
+}
+
+.kiwi {
+	background-color: white;
+	width: 250px;
+	height: 300px;
+	font-size: 10px;
+	position: relative;
+  	left: 750px;
+  	bottom: 320px;
+  	padding-top: 0px;
+  	text-align: center;
+}
+
+.gambarKW {
+	background-image: url(https://images2.alphacoders.com/872/872354.jpg);
+	width: 275px;
+	height: 170px;
+	background-size: 200px 130px;
+	background-repeat: no-repeat;
+	position: relative;
+	top: 30px;
+	left: 25px;
+}
+
+.blueberry {
+	background-color: white;
+	width: 250px;
+	height: 300px;
+	font-size: 10px;
+	position: relative;
+  	left: 1005px;
+  	bottom: 620px;
+  	padding-top: 0px;
+  	text-align: center;
+}
+
+.gambarBL {
+	background-image: url(https://www.tokkoro.com/picsup/2722682-blueberry-4k-wallpaper-for-wide-screen.jpg);
+	width: 275px;
+	height: 170px;
+	background-size: 200px 130px;
+	background-repeat: no-repeat;
+	position: relative;
+	top: 30px;
+	left: 25px;
+}
+
+/* end of produk */
