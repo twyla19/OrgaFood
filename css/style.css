@@ -176,93 +176,79 @@ input[type=password], input[type=text], input[type=email]{
 /* produk start */
 
 .produkbg {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 500px;
 	background-color: #EEEEEE;
 }
 
 .kategori {
 	background-color: white;
 	font-family: "Poppins";
-	width: 210px;
-	height: 120px;
+  text-decoration: none;
+	width: auto;
+	height: auto;
 	font-size: 15px;
-	position: absolute;
-	top: 20px;
-  	left: 10px;
+  float: left;
+  padding: 10px;
 }
 
 .kategoriproduk {
 	font-size: 20px;
-	padding-left: 20px;
-	padding-top: 10px;
+  text-decoration: none;
 }
 
-.filter {
-	background-color: white;
-	font-family: "Calibri";
-	width: 200px;
-	height: 150px;
-	font-size: 15px;
-	position: absolute;
-	top: 160px;
-  	left: 10px;
-  	padding-left: 10px;
+.kategoriproduk u {
+  text-decoration: none;
 }
 
 .filterr {
 	font-size: 20px;
-	padding-top: 5px;
 }
+
+.filterr u {
+  text-decoration: none;
+}
+
 
 .gambarbuah {
 	background-image: url(C:/Users/Asus/Documents/GitHub/fuzzy-direx/img/gambarbuah.png);
 	width: 1000px;
-	height:  400px;
+	height:  200px;
 	background-size: 1000px 500px;
-  	background-repeat: no-repeat;
- 	position: absolute;
- 	top: 20px;
- 	left: 250px;
+  float: right;
 }
 
 
 .backgroundbuah {
-	background-color: black;
-	opacity: 0.6;
-	position: relative;
-	height: 100px;
+	background-color: rgba(0, 0, 0, .6);
+	/* position: relative; */
+	height: auto;
 	width: 800px;
-  	left: 440px;
-  	top: 120px;
+float: right;
 }
 
 .buah {
 	position: relative;
 	color: white;
-	top: 35px;
-  	left: 450px;
-  	line-height: 5px;
+	float: right;
+  margin: 15px;
 }
 
 .buahognk {
+  float: right;
 	font-family: Swis721 Hv BT;
 }
 
 .Dipetik {
+  float: right;
 	font-family: Microsoft Himalaya;
 	font-size: 30px;
 }
 
-.jeruknipis {
-	background-color: white;
-	width: 250px;
-	height: 300px;
-	font-size: 10px;
-	position: relative;
-	top: 280px;
-  	left: 240px;
-  	padding-top: 0px;
-  	text-align: center;
-}
+
 
 .coret {
 	opacity: 0.6;
@@ -275,6 +261,19 @@ input[type=password], input[type=text], input[type=email]{
 
 .Kg {
 	opacity: 0.6;
+}
+
+.jeruknipis {
+  background-color: white;
+	width: 250px;
+	height: 300px;
+	font-size: 10px;
+	position: relative;
+float: right;
+margin-right: 10px;
+bottom: 320px;
+  	padding-top: 0px;
+  	text-align: center;
 }
 
 .gambarJN {
@@ -294,8 +293,9 @@ input[type=password], input[type=text], input[type=email]{
 	height: 300px;
 	font-size: 10px;
 	position: relative;
-  	left: 495px;
-  	bottom: 20px;
+float: right;
+margin-right: 10px;
+bottom: 320px;
   	padding-top: 0px;
   	text-align: center;
 }
@@ -317,7 +317,8 @@ input[type=password], input[type=text], input[type=email]{
 	height: 300px;
 	font-size: 10px;
 	position: relative;
-  	left: 750px;
+float: right;
+margin-right: 10px;
   	bottom: 320px;
   	padding-top: 0px;
   	text-align: center;
@@ -340,14 +341,15 @@ input[type=password], input[type=text], input[type=email]{
 	height: 300px;
 	font-size: 10px;
 	position: relative;
-  	left: 1005px;
-  	bottom: 620px;
+    float: right;
+  	bottom: 320px;
   	padding-top: 0px;
+    margin-right: 10px;
   	text-align: center;
 }
 
 .gambarBL {
-	background-image: url(C:/Users/Asus/Documents/GitHub/fuzzy-direx/img/KW.jpg);
+	background-image: url(C:/Users/Asus/Documents/GitHub/fuzzy-direx/img/BL.jpg);
 	width: 275px;
 	height: 170px;
 	background-size: 200px 130px;
