@@ -155,7 +155,7 @@ input[type=password], input[type=text], input[type=email]{
 
 .ORGAFOOD {
   text-align: center;
-  color: white;
+  color: #82ae46;
   font-family: "Poppins";
   font-size: 90px;
   font-weight: 800;
@@ -169,6 +169,15 @@ input[type=password], input[type=text], input[type=email]{
   line-height: 20px;
   padding-right: 105px;
   padding-left: 100px;
+}
+
+.btmlist{
+  background-color: white;
+  margin: 0;
+  padding: 10px;
+  height: 250px;
+  position: relative;
+  top: 100px;
 }
 
 /* end of home */
