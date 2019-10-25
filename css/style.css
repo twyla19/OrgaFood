@@ -224,7 +224,7 @@ form{
 }
 
 .gambarbuah {
-	background-image: url(C:/Users/Asus/Documents/github/fuzzy-direx/img/gambarbuah.png);
+	background-image: url(/img/gambarbuah.png);
 	width: 1000px;
 	height:  300px;
   background-size: 1000px 500px;
@@ -320,7 +320,7 @@ margin-right: 10px;
 }
 
 .gambarST {
-	background-image: url(C:/Users/Asus/Documents/github/fuzzy-direx/img/ST.jpg);
+	background-image: url(C:/Users/Asus/Documents/github/twyla19.github.io/img/ST.jpg);
 	width: 275px;
 	height: 170px;
 	background-size: 200px 130px;
