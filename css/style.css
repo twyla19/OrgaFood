@@ -320,7 +320,7 @@ margin-right: 10px;
 }
 
 .gambarST {
-	background-image: url(C:/Users/Asus/Documents/github/twyla19.github.io/img/ST.jpg);
+	background-image: url(/img/ST.jpg);
 	width: 275px;
 	height: 170px;
 	background-size: 200px 130px;
@@ -354,7 +354,7 @@ margin-right: 10px;
 }
 
 .gambarKW {
-	background-image: url(C:/Users/Asus/Documents/github/fuzzy-direx/img/KW.jpg);
+	background-image: url(/img/KW.jpg);
 	width: 275px;
 	height: 170px;
 	background-size: 200px 130px;
@@ -365,7 +365,7 @@ margin-right: 10px;
 }
 
 .gambarBL {
-	background-image: url(C:/Users/Asus/Documents/github/fuzzy-direx/img/BL.jpg);
+	background-image: url(/img/BL.jpg);
 	width: 275px;
 	height: 170px;
 	background-size: 200px 130px;
@@ -378,7 +378,7 @@ margin-right: 10px;
 
 /* detail product start */
 .BLdtl {
-  background-image: url(C:/Users/Asus/Documents/github/fuzzy-direx/img/BL.jpg);
+  background-image: url(/img/BL.jpg);
   width: 550px;
 	height: 400px;
 	background-size: 550px 400px;
@@ -402,7 +402,7 @@ margin-right: 10px;
 }
 
 .imgopt{
-  background-image: url(C:/Users/Asus/Documents/github/fuzzy-direx/img/BL.jpg);
+  background-image: url(/img/BL.jpg);
   text-align: center;
   background-size: contain;
   width: 150px;
@@ -474,7 +474,7 @@ margin-right: 10px;
 }
 
 .KWdtl {
-  background-image: url(C:\Users\Asus\Documents\github\fuzzy-direx\img\KW.jpg);
+  background-image: url(/img/KW.jpg);
   width: 550px;
   height: 400px;
   background-size: 550px 400px;
