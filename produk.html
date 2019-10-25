@@ -5,30 +5,32 @@
 
 		<meta charset="utf-8">
 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800&display=swap">
 
-		<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
 	</head>
 	<body background="img/mainbg.jpg">
 		<ul class="navbar">
       <a href="index.html"><p class="logo">ORGAFOOD</p></a>
       <li class="nbbutton"><a href="produk.html">Produk</a></li>
-      <li class="nbbutton"><a href="kontak.html">Kontak</a></li>
+      <li class="nbbutton" onclick="scrollDown"><a href="kontak.html">Kontak</a></li>
       <li class="nbbutton"><a href="tentang.html">Tentang</a> </li>
       <li class="nbbutton" style="float:right"><a href="login.html">Login</a></li>
     </ul>
 
 	<div class="produkbg">
 		<div class="kategori">
-			<h1 class="kategoriproduk"><u>KATEGORI PRODUK</u></h1>
-			<ul class="sayurbuahorganik">
-				<li><a href="SayurOrganik">Sayur Organik</a></li>
-				<li><a href="BuahOrganik">Buah Organik</a></li>
+			<h1>KATEGORI PRODUK</h1>
+			<ul>
+				<li><a href="#sayurorganik">Sayur Organik</a></li>
+				<li><a href="#buahorganik">Buah Organik</a></li>
 			</ul>
-			<h1 class="filterr"><u>FILTER BERDASARKAN</u></h1>
-			<input type="radio"> Merah<br>
+			<h1>FILTER BERDASARKAN</h1>
+				<input type="radio"> Merah<br>
 				<input type="radio"> Kuning<br>
 				<input type="radio"> Hijau<br>
 				<input type="radio"> Putih<br>
@@ -42,31 +44,78 @@
 			</div>
 		</div>
 
+
+
+		<div class="buahcont">
+			<div class="blueberry">
+				<div class="gambarBL"></div>
+				<h1>Blueberry</h1>
+				<h1 class="harga"><sup class="coret">Rp.40000</sup>Rp.37000</h1>
+				<h2 class="Kg">per Kg</h2>
+				<a href="produkdetailBL.html">lebih lanjut..></a>
+			</div>
+			<div class="kiwi">
+				<div class="gambarKW"></div>
+				<h1>Kiwi</h1>
+				<h1 class="harga"><sup class="coret">Rp.100000</sup>Rp.90000</h1>
+				<h2 class="Kg">per Kg</h2>
+				<a href="#produkdetailKW">lebih lanjut..></a>
+			</div>
+			<div class="strawberry">
+				<div class="gambarST"></div>
+				<h1>Strawberry</h1>
+				<h1 class="harga"><sup class="coret">Rp.30000</sup>Rp.28000</h1>
+				<h2 class="Kg">per Kg</h2>
+				<a href="#produkdetailST">lebih lanjut..></a>
+			</div>
+			<div class="jeruknipis">
+				<div class="gambarJN"></div>
+				<h1>Jeruk Nipis</h1>
+				<h1 class="harga"><sup class="coret">Rp.8000</sup>Rp.5000</h1>
+				<h2 class="Kg">per Kg</h2>
+				<a href="#produkdetailJN">lebih lanjut..></a>
+			</div>
+		</div>
 	</div>
 
-		<div class="jeruknipis">
-			<div class="gambarJN"></div>
-			<h1>Jeruk Nipis</h1>
-			<h1 class="harga"><sup class="coret">Rp.8000</sup>Rp.5000</h1>
-			<h2 class="Kg">per Kg</h2>
-		</div>
-		<div class="strawberry">
-			<div class="gambarST"></div>
-			<h1>Strawberry</h1>
-			<h1 class="harga"><sup class="coret">Rp.30000</sup>Rp.28000</h1>
-			<h2 class="Kg">per Kg</h2>
-		</div>
-		<div class="kiwi">
-			<div class="gambarKW"></div>
-			<h1>Kiwi</h1>
-			<h1 class="harga"><sup class="coret">Rp.100000</sup>Rp.90000</h1>
-			<h2 class="Kg">per Kg</h2>
-		</div>
-		<div class="blueberry">
-			<div class="gambarBL"></div>
-			<h1>Blueberry</h1>
-			<h1 class="harga"><sup class="coret">Rp.40000</sup>Rp.37000</h1>
-			<h2 class="Kg">per Kg</h2>
-		</div>
+	<div class="btmlist">
+		<table>
+			<tr>
+				<td>
+					<table class="about">
+						<tr>
+							<th>ORGAFOOD</th>
+						</tr>
+						<tr>
+							<td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</td>
+						</tr>
+					</table>
+				</td>
+				<td>
+					<table class="contact">
+						<tr>
+							<th>Kontak</th>
+						</tr>
+						<tr>
+							<td><i class="fa fa-phone fa-2x" ></i></td>
+							<td><a href="tel:+6281332733983">+62 81 234 567 890</a></td>
+						</tr>
+						<tr>
+							<td><i class="fa fa-envelope-o fa-2x" ></i></td>
+							<td><a href="mailto:orgafood@domain.com" target="_top">orgafood@domain.com</a></td>
+						</tr>
+						<tr>
+							<td><i class="fa fa-instagram fa-2x" ></i></td>
+							<td><a href="https://www.instagram.com/sukadapak/">@orgafood_</a> </td>
+						</tr>
+						<tr>
+							<td><i class="fa fa-facebook fa-2x" ></i></td>
+							<td><a href="https://www.facebook.com/gradanicalovesyou">Orgafood</a></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</div>
 	</body>
 </html>

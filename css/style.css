@@ -1,24 +1,9 @@
 body {
   text-align: center;
-  /* background-image: url(C:/Users/Asus/Documents/GitHub/fuzzy-direx/img/mainbg.jpg); */
+  /* background-image: url(C:/Users/Asus/Documents/github/fuzzy-direx/img/mainbg.jpg); */
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-}
-
-/* home start */
-
-h1{
-  font-family: 'Poppins ExtraBold';
-  line-height: 0.5;
-}
-
-p{
-  font-family: 'Poppins';
-}
-
-form{
-  display: inline-block;
 }
 
 input[type=password], input[type=text], input[type=email]{
@@ -31,6 +16,41 @@ input[type=password], input[type=text], input[type=email]{
   border-radius: 4px;
 }
 
+.btmlist{
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  height: 75%;
+  position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 750px
+}
+
+.about{
+  text-align: left;
+  font-family: 'Poppins';
+}.about th{
+  font-family: 'Poppins';
+  font-weight: 800;
+}
+
+.contact{
+  text-align: left;
+}.contact a{
+  text-decoration: none;
+  color: inherit;
+}.contact th{
+  font-family: 'Poppins';
+  font-weight: 800;
+  padding: 5px;
+}.contact td{
+  text-align: left;
+  font-family: 'Poppins';
+  padding: 15px;
+}
+
 .logo{
   font-weight: 800;
   float: left;
@@ -38,19 +58,75 @@ input[type=password], input[type=text], input[type=email]{
   margin-top: 14px;
   margin-left: 5px;
   margin-right: 5px;
-}
-
-.logo:hover{
-  color: #82ae46;
-}
+}.logo:hover{
+    color: #82ae46;
+  }
 
 .navbar{
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 5px;
   overflow: hidden;
   background-color: #333;
   height: 50px;
+  position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 3;
+}
+
+/* home start */
+.div1 {
+  background: rgba(0, 0, 0, .6);
+  margin-top: 50px;
+  padding: 10px;
+  height: 400px;
+  z-index: 0;
+}
+
+.div2 {
+  text-align: center;
+  position: static;
+}
+
+.welcome {
+  text-align: center;
+  color: white;
+  font-family: French Script MT;
+  font-size: 70px;
+  opacity: 1;
+}
+
+.ORGAFOOD {
+  text-align: center;
+  color: #82ae46;
+  font-family: "Poppins";
+  font-size: 90px;
+  font-weight: 800;
+}
+
+.sambutan {
+  text-align: center;
+  color: white;
+  font-family: Gabriola;
+  font-size: 30px;
+  line-height: 20px;
+  padding-right: 105px;
+  padding-left: 100px;
+}
+
+h1{
+  font-family: 'Poppins ExtraBold';
+  line-height: 0.5;
+}
+
+p{
+  font-family: 'Poppins';
+}
+
+form{
+  display: inline-block;
 }
 
 .nbbutton{
@@ -100,28 +176,6 @@ input[type=password], input[type=text], input[type=email]{
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   }
 
-.logbg{
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-}
-
-.logpopup{
-  background-color: #fefefe;
-  margin: auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
-}
-
 .box{
   background-color: #e9ecf0;
   margin: auto;
@@ -130,114 +184,65 @@ input[type=password], input[type=text], input[type=email]{
   border: 1px solid #82ae46;
   text-align: center;
 }
-
-.div1 {
-  background: rgba(0, 0, 0, .6);
-  border-left: 15px;
-  border-right: 15px;
-  margin: 0;
-  padding: 10px;
-  height: 400px;
-  position: relative;
-}
-
-.div2 {
-  text-align: center;
-}
-
-.welcome {
-  text-align: center;
-  color: white;
-  font-family: French Script MT;
-  font-size: 70px;
-  opacity: 1;
-}
-
-.ORGAFOOD {
-  text-align: center;
-  color: #82ae46;
-  font-family: "Poppins";
-  font-size: 90px;
-  font-weight: 800;
-}
-
-.sambutan {
-  text-align: center;
-  color: white;
-  font-family: Gabriola;
-  font-size: 30px;
-  line-height: 20px;
-  padding-right: 105px;
-  padding-left: 100px;
-}
-
-.btmlist{
-  background-color: white;
-  margin: 0;
-  padding: 10px;
-  height: 250px;
-  position: relative;
-  top: 100px;
-}
-
 /* end of home */
 
 /* produk start */
-
 .produkbg {
-  list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  height: 500px;
+  height: 700px;
 	background-color: #EEEEEE;
+  position: relative;
 }
 
 .kategori {
-	background-color: white;
-	font-family: "Poppins";
+  background-color: white;
+  width: auto;
+  height: auto;
+  padding: 5px;
+  position: absolute;
+    top: 50px;
+    left: 0;
+}
+
+.kategori h1 {
+  font-size: 20px;
+  font-family: 'Poppins';
+}
+
+.kategori ul{
+  text-align: center;
+}
+
+.kategori li{
+  text-align: center;
+  list-style-type: none;
+}
+
+.kategori li a{
   text-decoration: none;
-	width: auto;
-	height: auto;
-	font-size: 15px;
-  float: left;
-  padding: 10px;
 }
-
-.kategoriproduk {
-	font-size: 20px;
-  text-decoration: none;
-}
-
-.kategoriproduk u {
-  text-decoration: none;
-}
-
-.filterr {
-	font-size: 20px;
-}
-
-.filterr u {
-  text-decoration: none;
-}
-
 
 .gambarbuah {
-	background-image: url(C:/Users/Asus/Documents/GitHub/fuzzy-direx/img/gambarbuah.png);
+	background-image: url(C:/Users/Asus/Documents/github/fuzzy-direx/img/gambarbuah.png);
 	width: 1000px;
-	height:  200px;
-	background-size: 1000px 500px;
+	height:  300px;
+  background-size: 1000px 500px;
   float: right;
+  position: absolute;
+    top: 50px;
+    right: 0;
 }
-
 
 .backgroundbuah {
 	background-color: rgba(0, 0, 0, .6);
-	/* position: relative; */
-	height: auto;
+	height: 300px;
 	width: 800px;
-float: right;
-}
+  float: right;
+  position: absolute;
+    top: 0;
+    right: 0;
+  }
 
 .buah {
 	position: relative;
@@ -257,8 +262,6 @@ float: right;
 	font-size: 30px;
 }
 
-
-
 .coret {
 	opacity: 0.6;
 	text-decoration: line-through;
@@ -272,21 +275,30 @@ float: right;
 	opacity: 0.6;
 }
 
+.buahcont{
+  position: absolute;
+  top: 375px;
+  right: 0;
+}
+
+.blueberry a{
+
+  text-decoration: none;
+}
+
 .jeruknipis {
   background-color: white;
 	width: 250px;
 	height: 300px;
 	font-size: 10px;
-	position: relative;
-float: right;
+float: left;
 margin-right: 10px;
-bottom: 320px;
   	padding-top: 0px;
   	text-align: center;
 }
 
 .gambarJN {
-	background-image: url(C:/Users/Asus/Documents/GitHub/fuzzy-direx/img/JN.jpg);
+	background-image: url(/img/JN.jpg);
 	width: 275px;
 	height: 170px;
 	background-size: 200px 130px;
@@ -301,16 +313,14 @@ bottom: 320px;
 	width: 250px;
 	height: 300px;
 	font-size: 10px;
-	position: relative;
-float: right;
-margin-right: 10px;
-bottom: 320px;
-  	padding-top: 0px;
-  	text-align: center;
+  float: left;
+  margin-right: 10px;
+	padding-top: 0px;
+	text-align: center;
 }
 
 .gambarST {
-	background-image: url(C:/Users/Asus/Documents/GitHub/fuzzy-direx/img/ST.jpg);
+	background-image: url(C:/Users/Asus/Documents/github/fuzzy-direx/img/ST.jpg);
 	width: 275px;
 	height: 170px;
 	background-size: 200px 130px;
@@ -325,23 +335,10 @@ bottom: 320px;
 	width: 250px;
 	height: 300px;
 	font-size: 10px;
-	position: relative;
-float: right;
-margin-right: 10px;
-  	bottom: 320px;
-  	padding-top: 0px;
-  	text-align: center;
-}
-
-.gambarKW {
-	background-image: url(C:/Users/Asus/Documents/GitHub/fuzzy-direx/img/KW.jpg);
-	width: 275px;
-	height: 170px;
-	background-size: 200px 130px;
-	background-repeat: no-repeat;
-	position: relative;
-	top: 30px;
-	left: 25px;
+  float: left;
+  margin-right: 10px;
+	padding-top: 0px;
+	text-align: center;
 }
 
 .blueberry {
@@ -350,15 +347,14 @@ margin-right: 10px;
 	height: 300px;
 	font-size: 10px;
 	position: relative;
-    float: right;
-  	bottom: 320px;
+    float: left;
   	padding-top: 0px;
     margin-right: 10px;
   	text-align: center;
 }
 
-.gambarBL {
-	background-image: url(C:/Users/Asus/Documents/GitHub/fuzzy-direx/img/BL.jpg);
+.gambarKW {
+	background-image: url(C:/Users/Asus/Documents/github/fuzzy-direx/img/KW.jpg);
 	width: 275px;
 	height: 170px;
 	background-size: 200px 130px;
@@ -368,4 +364,163 @@ margin-right: 10px;
 	left: 25px;
 }
 
+.gambarBL {
+	background-image: url(C:/Users/Asus/Documents/github/fuzzy-direx/img/BL.jpg);
+	width: 275px;
+	height: 170px;
+	background-size: 200px 130px;
+	background-repeat: no-repeat;
+	position: relative;
+	top: 30px;
+	left: 25px;
+}
 /* end of produk */
+
+/* detail product start */
+.BLdtl {
+  background-image: url(C:/Users/Asus/Documents/github/fuzzy-direx/img/BL.jpg);
+  width: 550px;
+	height: 400px;
+	background-size: 550px 400px;
+	background-repeat: no-repeat;
+	position: absolute;
+  top: 100px;
+  left: 70px;
+}
+
+.imgchoice {
+  width: 400px;
+	height: 100px;
+  position: relative;
+    top: 90px;
+    left: 130px;
+  border: 1px solid black;
+}
+
+.imgchoice ul{
+  list-style-type: none;
+}
+
+.imgopt{
+  background-image: url(C:/Users/Asus/Documents/github/fuzzy-direx/img/BL.jpg);
+  text-align: center;
+  background-size: contain;
+  width: 150px;
+  height: 100px;
+  list-style-type: none
+}
+
+.detailBL {
+  width: 400px;
+	height: 300px;
+  position: relative;
+  top: 90px;
+  left: 750px;
+}
+
+.tulisan {
+  font-size: 50px;
+  text-align: left;
+  font-family: Calibri;
+}
+
+.coret1 {
+  font-size: 20px;
+  text-align: left;
+  text-decoration: line-through;
+  opacity: 0.6;
+  font-family: Calibri;
+}
+
+.harga1 {
+  font-size: 30px;
+  color: #00FF00;
+  font-family: Calibri;
+}
+
+.satuan {
+  font-size: 20px;
+  text-align: left;
+  font-family: Calibri;
+}
+
+.pilihsatuan {
+  font-size: 20px;
+  text-align: left;
+  font-family: Calibri;
+}
+
+.bagikan {
+  width: 400px;
+	height: 100px;
+  position: relative;
+  top: 90px;
+  left: 750px;
+  border-top: 1px solid black;
+}
+
+.bagikan a{
+  color: inherit;
+}
+
+.bagikan h1 {
+  font-size: 20px;
+  text-align: left;
+  font-family: Calibri;
+}
+
+.bagikan i{
+  margin: 10px
+}
+
+.KWdtl {
+  background-image: url(C:\Users\Asus\Documents\github\fuzzy-direx\img\KW.jpg);
+  width: 550px;
+  height: 400px;
+  background-size: 550px 400px;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 100px;
+  left: 70px;
+}
+/* end of produk detail */
+
+/* kontak */
+.kontak {
+  border: 1px solid #82ae46;
+  border-radius: 5px;
+  background-color: white;
+  width: 500px;
+	height: 500px;
+  top: 100px;
+  left: 450px;
+  position: relative;
+}
+
+.kontak a{
+  font-family: 'Poppins';
+  font-size: 20px;
+  text-decoration: none;
+  color: inherit;
+
+}
+
+.kontak h1 {
+  font-size: 32px;
+  font-family: 'Poppins';
+}
+
+.kontak ul{
+  margin-right: 50px;
+  list-style: none;
+}
+
+.kontak li{
+  margin: 50px;
+  list-style: none;
+}
+
+.hubung i{
+  margin: 10px;
+}
+/* end of kontak */
