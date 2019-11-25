@@ -15,16 +15,23 @@
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	</head>
-	<body background="img/mainbg.jpg">
-		<ul class="navbar">
-      <a href="index.html"><p class="logo">ORGAFOOD</p></a>
-      <li class="nbbutton"><a href="produk.html">Produk</a></li>
-      <li class="nbbutton" onclick="scrollDown"><a href="kontak.html">Kontak</a></li>
-      <li class="nbbutton"><a href="tentang.html">Tentang</a> </li>
-      <li class="nbbutton" style="float:right"><a href="login.html">Login</a></li>
-    </ul>
+	<body>
+		<nav class="navbar navbarbg stickyatas">
+      <a class="navbarlogo" href="index.html">ORGAFOOD</a>
+      <div class="navbartable">
+          <a class="navelement" href="#">Produk</a>
+          <a class="navelement" href="#">Login</a>
+      </div>
+    </nav>
 
-	<div class="produkbg">
+		<nav aria-label="mininavbar">
+      <ol class="mininavbar">
+        <li class="mininavbarelement"><a href="index.html">Home</a></li>
+        <li class="mininavbarelement active" aria-current="page">Produk</li>
+      </ol>
+    </nav>
+
+	<!-- <div class="produkbg">
 		<div class="kategori">
 			<h1>KATEGORI PRODUK</h1>
 			<ul>
@@ -81,9 +88,9 @@
 				<a href="#produkdetailJN">lebih lanjut..></a>
 			</div>
 		</div>
-	</div>
+	</div> -->
 
-	<div class="btmlist">
+	<!-- <div class="btmlist">
 		<table>
 			<tr>
 				<td>
@@ -121,6 +128,6 @@
 				</td>
 			</tr>
 		</table>
-	</div>
+	</div> -->
 	</body>
 </html>
