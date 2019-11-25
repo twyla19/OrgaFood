@@ -1,4 +1,4 @@
-body {
+p {
   text-align: center;
   /* background-image: url(C:/Users/Asus/Documents/github/fuzzy-direx/img/mainbg.jpg); */
   background-size: cover;
@@ -17,10 +17,11 @@ input[type=password], input[type=text], input[type=email]{
 }
 
 .btmlist{
+  border: 1px solid black;
   background-color: white;
   margin: 0;
   padding: 0;
-  height: 75%;
+  height: 100%;
   position: absolute;
     bottom: 0;
     left: 0;
@@ -29,14 +30,18 @@ input[type=password], input[type=text], input[type=email]{
 }
 
 .about{
+  /* border: 1px solid black; */
   text-align: left;
   font-family: 'Poppins';
+  /* position: relative;
+  top: -85px; */
+
 }.about th{
   font-family: 'Poppins';
   font-weight: 800;
 }
-
 .contact{
+  border: 1px solid black;
   text-align: left;
 }.contact a{
   text-decoration: none;
@@ -51,29 +56,105 @@ input[type=password], input[type=text], input[type=email]{
   padding: 15px;
 }
 
-.logo{
-  font-weight: 800;
-  float: left;
-  color: white;
-  margin-top: 14px;
-  margin-left: 5px;
-  margin-right: 5px;
-}.logo:hover{
-    color: #82ae46;
-  }
-
 .navbar{
-  list-style-type: none;
-  margin: 0;
-  padding: 5px;
-  overflow: hidden;
-  background-color: #333;
-  height: 50px;
-  position: fixed;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+
+@supports (position: sticky) {
+  .stickyatas {
+    position: sticky;
     top: 0;
-    right: 0;
-    left: 0;
-    z-index: 3;
+    z-index: 1020;
+  }
+}
+
+.navbarbg {
+  background-color: #343a40 !important;
+}
+
+.navbartable {
+  display: flex;
+  flex-direction: row;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  font-family: "Poppins";
+}
+
+.navelement {
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: #e4e4e4;
+}
+
+.navelement:hover, .navelement:focus {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.navbarlogo {
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+  font-family: "Poppins";
+  font-weight: 800;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.navbarlogo:hover, .navbarlogo:focus {
+  text-decoration: none;
+  color: #82ae46;
+}
+
+.mininavbar {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  list-style: none;
+  background-color: #e9ecef;
+  font-family: "Poppins"
+}
+
+.mininavbarelement + .mininavbarelement {
+  padding-left: 0.5rem;
+}
+
+.mininavbarelement + .mininavbarelement::before {
+  display: inline-block;
+  padding-right: 0.5rem;
+  color: #6c757d;
+  content: "/";
+}
+
+.mininavbarelement + .mininavbarelement:hover::before {
+  text-decoration: none;
+}
+
+.mininavbarelement a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.mininavbarelement a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.mininavbarelement.active {
+  color: #6c757d;
 }
 
 /* home start */
@@ -149,10 +230,6 @@ form{
   background-color: #111;
 }
 
-.active{
-  background-color: #82ae46;
-}
-
 .button{
   background-color: #82ae46;
   border-radius: 15px;
@@ -189,15 +266,29 @@ form{
 /* produk start */
 .produkbg {
   margin: 0;
-  padding: 0;
   height: 700px;
 	background-color: #EEEEEE;
   position: relative;
 }
 
+.filter {
+  background-color: white;
+  width: 250px;
+  height: auto;
+  padding: 5px;
+  position: absolute;
+    top: 175px;
+    left: 0;
+}
+
+.filter h1 {
+  font-size: 20px;
+  font-family: 'Poppins';
+}
+
 .kategori {
   background-color: white;
-  width: auto;
+  width: 250px;
   height: auto;
   padding: 5px;
   position: absolute;
